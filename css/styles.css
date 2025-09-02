@@ -10,6 +10,16 @@ div{
     border: 1px solid darkcyan;
     padding: 20px;
     margin-bottom: 20px;
+    flex: 1; /* Allows both divs to grow and take equal space */
+    padding: 15px;
+}
+
+.flexcontainer {
+background-color: lightcyan;
+  display: flex; /* Makes child elements flex items */
+  justify-content: space-around; /* Distributes space around items */
+  align-items: flex-start; /* Aligns items to the start of the cross-axis */
+  gap: 20px; /* Adds space between flex items */
 }
 
 h1{
